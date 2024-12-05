@@ -1,0 +1,134 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{{ url_for('static', filename='css/output.css') }}" rel="stylesheet">
+    <title>Pixperf</title>
+
+</head>
+<body>
+<nav class="absolute z-10 w-full h-28 px-36 text-white flex justify-between items-center">
+    <div class="flex items-center">
+        <img class="md:h-10 md:w-10" src="{{ url_for('static', filename='img/Surf-Logo.png') }}" alt="">
+        <p class="text-base leading-8 text-gray-500 text-left">
+            SURF & PADDLE CO. BLOG
+        </p>
+    </div>
+
+    <div class="text-white flex">
+        <a href="#" class="text-white mr-5">ABOUT</a>
+        <a href="#" class="text-white mr-5">SEARCH</a>
+        <img class="md:h-10 md:w-10" src="{{ url_for('static', filename='img/Win-Logo.png') }}" alt="windows thing">
+    </div>
+</nav>
+
+<div class="relative w-full min-h-[200px] bg-cover justify-center" style="background-image: url('/static/img/Beach.jpg')">
+    <div class="absolute top-[0px] bottom-[0px] left-[0px] right-[0px] bg-blue-900 opacity-60"></div>
+
+    <div class="relative py-48 text-center">
+        <h1 class="text-white uppercase text-7xl font-bold">Surf & Paddle Co.</h1>
+        <h2 class="text-center">An IronYard Ac. Project</h2>
+    </div>
+</div>
+
+<div class="">
+    <div class="flex px-4 mt-10">
+        <!-- Main content -->
+        <div class="mx-auto max-w-xl py-10 ml-32">
+            <h2 class="text-4xl font-bold tracking-tight text-blue-950 sm:text-4xl font-mono uppercase text-left">
+                A Fantastic and Engaging Headline Goes Here
+            </h2>
+            <div class="text-center ">
+                <img class="mx-auto h-18 w-18 rounded-full md:h-10 md:w-10 inline-block float-left"
+                     src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                     alt="">
+                <h3 class="text-left leading-8 text-sky-600 text-sm pt-1">
+                    Man Yuh On Tuesday Oct 8. 3:59
+                </h3>
+                <p class="mt-6 text-lg leading-8 text-gray-500 text-left pt-8">
+                    Locavore ea meggings, deep v gentrity bespoke butcher
+                    yr typewriter. Nisi sunt 8-bIt
+                    cralt Deer, leggings deep V DIodiesel willamsburg. Actually nashtag art party nesciunt
+                    squid pour-over. Kitsch Vice cray, Marfa brunch fingerstache officia Schlitz Blue Bottli
+                    cillum. Mlkshk 8-bit aliquip fingerstache surt.
+                </p>
+                <p class="mt-6 text-lg leading-8 text-gray-500 text-left">
+                    Distillery ad sriracha, synth wolf street art brunch
+                    excepteur consectetur art party iron
+                    fugiat. Duis chia yr, pour-over Portland velit High Life non aesthetic fugiat tattooec
+                    shabbv chicp
+                </p>
+                <h3 class="text-left tracking-tight text-sky-600 sm:text-2xl font-mono">
+                    WOAH, THAT'S RADICAL!
+                </h3>
+                <p class="mt-6 text-lg leading-8 text-gray-500 text-left">
+                    Swag nisi mixtape stray. non nasn to re
+                    dolore. Raw denim mixtape drinking vinegar, Vice 3 wolf moon authentic officia aute id.
+                    Keffiyeh yr retro, salvia do aliqua (rollover) leggings selvage narwhal tarm-to-table
+                    dolor lonx DIY photo booth. Bitters gastropub non 3 wolr moon blue Bottle organic,
+                    crav aestneuc lean shorts vellumami. Miksn« roor party cardian. Tarm
+                    plaid wolf master cleanse. Thundercats tattooed lo-fi culpa, mollit Pinterest Americar
+                    Apparel. 3 wolf moon VHS hella, Tonx beard chambray sustainable jean shorts syntr
+                </p>
+                <p class="mt-6 text-lg leading-8 text-gray-500 text-left">
+                    mIu Vin sartorial culna hosnokolahore athiral
+                    roarumade tofu selfies u scavoro
+                    commodo mumblecore naleo tunewriter Mumblecore selties nostrud asvmmetriral
+                    90's fannv pack est Blue Bottle ethnic blog. Narwhal Shoreditch fixie tofu. nisi before
+                </p>
+                <div class="flex relative pt-5">
+                    <div class="flex bg-slate-500 text-white ">
+                        <img class="h-6 w-6 bg-gray-800" src="https://www.freeiconspng.com/thumbs/comment-png/comment-png-17.png">
+                        <a href="#" class="pl-2 pr-1 text-sm">Read Comments </a>
+                    </div>
+                    <div class="mr-2"></div>
+                    <div class="flex bg-slate-500 text-white ">
+                        <img class="h-6 w-6 bg-gray-800" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8CAwUAAAAEBATLy8u+vr5PT09MTE78/PwGBwiPj4/Hx8f39/erq6sAAgSvr6/R0dHw8PBpaWmmpqbl5eW0tbaMjIzd3d2fn59wcHBXV1ckJCQ/P0G9vb1ERESVlZWBgYE2NjYsLCxhYmMWFhcYGBiChINtbnB4eXkyMjKxiRBrAAAG1ElEQVR4nO2di3bbKBCGpSEXlKRYdpw4F8eOs2k3ff8XXAakxAIkSzYS4J3vtCc9py6dX/wacRnkLCMIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiBShPPqZ9gwxgOFLcvbchk6kPGYbz8A+djOz7AfpUMfUF2eC/wxkxLPTCTPHgEKkSukyMfzux23UuC3QlbAzVkplFpKZdC8hgGUoaPyibwJX74tqhUyuAodlU94tvqxaK0QVqHD8gjPnoCxfB+Rw1PosDzCs4VD4T+hw/LKlakwz+E6dFBeIYXpQwrThxSmDylMH1KYPqQwfUhh+pDC9CGF6UMK04cUpg8pTB9SmD6kMH1IYfqQwvQhhelDCtOHFKYPKUyfdBVyzrP57H3x/LT6qVR3MEwhNrR6+lp8zZbBq1ClvmfQXK06ohmoMFu9VK0+340R9hBWGAaDolDF260MUsizGbbJ5C8IW2nLlUCMVmD5L8CvrO2KD1AoLfqrbhU/Bl3eGBkZy2av9LdAiS3B9FeoBO7VSwtYB1SYvQH7rk4vipxJiW4GKJQCxX49sYCH8SQc5GUvcOlUedvcZ3euK95XIVf3oBCND4arCOcZNANnrUbtqVAJbBSEqztxdCWtzJsKpVEZuI3a26W/oDA+KHKYjyujA0NhLoRgAo1qfbKXQp1FhdGFUmHAs2BgBS6ThMuofRQ6LRrYpXbgQnrMZdR+LjWyaKedJwGPozEjJGnUAmyjHlboyqK6xYBPCxnUGpgVk86oTQ4qbLOo/NyuY0Q/MtWozcwMhRRjSuzhUplkClufCH4E7BaME03aqGZG7VbIWy0qb+qL6UXtw1EiE1ZsKqPucUghPgcdDhVKYDiX6tgucSLQ7EY0anOMesilmEVtfbIHb6UVQk+C24zayKhdCrssehtIUwNl1MJhVJRY06HwgEXD9yBGeNtu1Cq+LoWYRc2/1Ba9iEBehduoshvrWX+rQvdYVPdgFBbVVEY1n4z5z6O/XWHsFtVw1YvCMmquehGjbFHIWyyqBcYirwJ7MbczaqEzqlthx1g0JotqqnRjaqzHqC0KcSxqeVteGSUwsi7URnVn1PtWlyqLmgpxueeidV0yKLf22Fln1PvsGiwnwkb2oLCfo3WSiRBtVDNkVAgPL6ZC2VEv0qL23EvEeA/+gMNwR0YF+LT6kIlPsDsW1yTjy6L7oFGZ2YnoO1tL3pZFL6JLMnu0Tab6Uls0XoWZzqjm4k1vgQwFRi0PcWTU3gqjTjI1XA/gjjCqiPcxYYJGNacaPQQWSVhUc5RR07CoRht1WEZNyKIaNSUeYFS0aNQPehPumkydi0U19Rh1mEUT6kMERzf98k1yFtXUazdnaVFFtRp+2Kh6LJpcD2rUo/88LarpZdTUnoNNlFE7n/xJW1TjWA23LJo0PLvoMmraFlXweozaZdGkTYq0GVXP6M+AVqOegUU1LUY9gyy6j21UPaM/GxyP/kTHom3YRo1wf1DVtPATKluUUVm1A3VCkqli4CcF42oXfzvrm3s3gPPFSuFJK9v6Utd/8sfq8frj9+br8th/z9VDQyrEFarTLHr5tXl9vXr0We7Gs2V9hAVeT9g3WW6qRjZHF/3K6/RRh/Ky9FcPtiqA4T2EG7rwdEK75Z/r9fWfU57z97i5pZAxlb6MOtd3UAW8HXsD/VyZowO7lJEUWiJWzfsqcV/gwmCV6uVNJE7JOKcg8+fnz94d3s8LPw0vm9ubovVgzNhg6Qbb23+V4yI/VfwPzRGXCPa6ePPl9VJhx3G5AWzNUzprL80ew6ZZtAKw9dLs1tiED6WQWwoZ3HhpORaFmVKYj6DwJiqFY/Th/1Dhzkuzx7CeRKGAz1BVdXe/p1FYBDvFUgKbRGEO/3ppdxg4UvwyajjHug/xADmf2qg4bF+ZhXBj9SHL4e/0g2+e3e3AWJEcqw8ZVr9OfzR3blfh+lHIrTGNvBPl1Gw2bS/yWWEXa441apPg7PP1ffb2djkNs/dX187AaH2IX5vGBExLYZfnCOZlboHTTkuhqlYeWNd1CsL5n0mFPuaHXD5nJ1MyDF9jD37nPLcTAfJG8fJYxrWD4dWiU+BpPUUtVscoENfaPO2wcjUti82oOLTaeNu6KO33XwRHFDl4W/NWX3XLzHNpgZGJdOtt+0k282y9NiY4ag7ncei4AHwRVCzgm8UWvndIt+ori4V92HdiaWpwo7722vurFsqdyjcsNNJKALsyG6NoerbGIbB6GV4gCv0/r/1sV5jgFSsf/4YS983useSjvgzkbllehKNcRXk+ODniKvQhCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIKIiP8AXE9ddkF9PgUAAAAASUVORK5CYII=">
+                        <a href="#" class="pl-2 pr-1 text-sm">Read Later </a>
+                    </div>
+                    <div class="mr-2"></div>
+                    <div class="flex bg-blue-500 text-white ">
+                        <img class="h-6 w-6" src="data:image/png;base64,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">
+                        <a href="#" class="pl-2 pr-1 text-sm">Share This Post </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="mx-auto text-center mr-20">
+            <div class="pt-11">
+                <img class="mx-auto h-18 w-18 rounded-full md:h-16 md:w-16"
+                     src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                     alt="">
+            </div>
+            <h3 class="mt-6 text-xs font-semibold leading-7 tracking-tight text-sky-600 text-center">Man Yuh</h3>
+            <div class="inline text-center">
+                <button class="text-xs leading-6 text-gray-400 mr-1">Twitter</button>
+                <button class="text-xs leading-6 text-gray-400 mr-1">Facebook</button>
+                <button class="text-xs leading-6 text-gray-400">Instagram</button>
+            </div>
+            <ul role="list" class="mt-6 flex justify-center gap-x-6">
+                <li>
+                    <img class="mx-auto lg: h-62 md: w-48 grid" src="{{ url_for('static', filename='img/Surf-Ad.jpeg') }}" alt="yuppers">
+                    <button class="ml-24 text-xs text-gray-400 underline">ABOUT THIS ADD</button>
+                    <button class="text-xs mr-6 pt-10 text-sky-600 font-bold">SIDEBAR SECTION HEADING</button>
+                    <p class="text-xs text-left leading-4 ml-12 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid, atque consequuntur corporis
+                        ducimus eos exercitationem in minus nulla saepe sed ullam unde. Ad culpa maiores odit pariatur quas
+                        tempore!
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="flex align-bottom">
+        {{ blog_posts|safe }}
+    </div>
+
+</div>
+</body>
+</html>
