@@ -1,0 +1,55 @@
+# Python bytecode:
+*.py[co]
+.python-version
+
+# Packaging files:
+*.egg*
+
+# Local Poetry config file
+poetry.toml
+
+# Node
+node_modules
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+
+# Logs:
+*.log
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+._*
+
+# Node
+node_modules
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PyCharm
+.idea
+
+# Testing
+.coverage
