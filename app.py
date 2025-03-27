@@ -6,6 +6,7 @@ from flask import Flask
 import csv
 from flask import render_template_string
 from post import get_post
+from post import get_about
 
 app = Flask(__name__)
 
@@ -16,8 +17,8 @@ from flask import render_template
 def index(name=None):
 
     template_yes = """
-        <a href="/posts/{{ id }}/" class="">
-            <div class="group relative h-[300px] w-[270px]">
+        <a href="/posts/{{ id }}/" class="w-1/4">
+            <div class="group relative h-[300px]">
                 <img class="absolute inset-0 object-cover w-full h-full" src="/static/img/{{ image }}">
                 <div class="absolute top-[0px] bottom-[0px] left-[0px] right-[0px] bg-sky-800 opacity-60 group-hover:hidden"></div>
                 <div class="relative">
@@ -51,3 +52,8 @@ def post_detail(post_id):
     post = get_post(post_id)
     return render_template('post_detail.html', **post)
 
+
+@app.route('/<about_id>/')
+def about_page(about_id):
+    about = get_about(about_id)
+    return render_template('about_page.html', **about)
